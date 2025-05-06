@@ -11,6 +11,10 @@ body {
     padding: 32px;
 }
 
+.logo-backs2 {
+    display:none !important;
+}
+
 h1 {
     font-size:45px;
     color:#fff;
