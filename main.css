@@ -15,10 +15,26 @@ body {
     display:none !important;
 }
 
+
+
 h1 {
     font-size:45px;
     color:#fff;
     text-align: center;
+}
+
+iframe {
+    height:80vh !important;
+}
+
+@media(max-width:1024px) {
+    h1 {
+        line-height:50px;
+    }
+
+    iframe {
+        height:100%!important;
+    }
 }
 
 a {
