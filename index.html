@@ -20,7 +20,6 @@
         <ul class="tabs">
             <li class="tab"><label for="tab1">Dummies</label></li>
             <li class="tab"><label for="tab2">Newspapper</label></li>
-            
         </ul>
 
         <div class="tab-content">
@@ -31,5 +30,13 @@
         </div>
     </div>
 </div>
+    <script>
+  window.addEventListener('load', function () {
+    const logos = document.querySelectorAll('.logo-backs2');
+    logos.forEach(function (el) {
+      el.style.display = 'none';
+    });
+  });
+</script>
 </body>
 </html>
